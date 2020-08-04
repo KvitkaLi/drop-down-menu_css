@@ -1,0 +1,44 @@
+body {
+	font-family: sans-serif; 
+}
+
+* {
+	margin: 0;
+   	padding: 0; /*обнуляємо стилі */ 
+} 
+ul {
+    list-style-type: none;
+}
+
+.menu{
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	display: block; 
+	color: #ffffff;
+	background-color: #878181;
+	padding: 1em; /* збільшуємо зону кліку по кнопці */
+	white-space: nowrap; /* не дозволяє робити переноси слів */
+} 
+
+.menu > li {
+	padding-left: 10px; /* відступи між кнопками  */
+}
+
+a:hover {
+	background-color: #f2bcbc;
+}
+
+.menu__submenu {
+	position: absolute;
+	display: none;
+}
+
+li {
+	position: relative;
+}
+li:hover .menu__submenu {
+	display: block; /*відображаємо підменю */
+}
