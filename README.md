@@ -1,6 +1,3 @@
-# drop-down menu_css
- Education for web-studia 
-
 # Drop-down Menu — випадаюче меню на HTML та CSS
 
 ## 📌 Про проєкт
