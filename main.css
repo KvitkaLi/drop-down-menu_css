@@ -39,6 +39,7 @@ a:hover {
 li {
 	position: relative;
 }
-li:hover .menu__submenu {
-	display: block; /*відображаємо підменю */
-}
+.menu > li:hover > .menu__submenu,  
+.menu > li:focus-within > .menu__submenu {  
+display: block; /*відображаємо підменю */  
+}  
